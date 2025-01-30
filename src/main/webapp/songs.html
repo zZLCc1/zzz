@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Songs</title>
+        <style>
+            .container {
+                display: flex;
+                gap: 10px;
+                width: 100%;
+            }
+            .background {
+                background-color: aliceblue;
+            }
+            .herSongs,
+            .ourSongs,
+            .hisSongs {
+                background-color: darkseagreen;
+                font-size: 2em;
+                text-align: center;
+                flex: 1; /* This ensures equal width for all divs */
+                padding: 10px;
+                box-sizing: border-box; /* Ensures padding doesn't overflow */
+            }
+
+            .herSongs {
+                background-color: darkseagreen;
+            }
+
+            h1 {
+                background-color: darkblue;
+                color: white;
+                display: inline;
+                padding: 5px;
+            }
+
+            .ourSongs {
+                background-color: cornflowerblue;
+            }
+
+            .hisSongs {
+                background-color: darkseagreen;
+            }
+
+            button {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body class="background">
+        <div class="container">
+            <!-- her songs -->
+            <div class="herSongs">
+                <h1>Your songs bonita!</h1>
+                <p><a href="https://www.youtube.com/watch?v=B_etSGv8yyg">Manana Voy A Conquistarla!</a></p>
+                <p><a href="https://www.youtube.com/watch?v=-RjwFR6H7_w">Regalo de Dios</a></p>
+                <p><a href="https://www.youtube.com/watch?v=a_wBQrUdcvk">Lo Tienes Todo</a></p>
+                <p><a href="https://www.youtube.com/watch?v=pnOP7wbPXqY">Tu</a></p>
+                <p><a href="https://www.youtube.com/watch?v=9qqcjBNwyfI">Mi Bonita</a></p>
+                <p><a href="https://www.youtube.com/watch?v=597KKUepNM4">Todo de Ti</a></p>
+                <p><a href="https://www.youtube.com/watch?v=q8ONoWyn_HM">Algo Magico</a></p>
+                <p><a href="https://www.youtube.com/watch?v=u7XjPmN-tHw">Just The Way You Are</a></p>
+                <p><a href="https://www.youtube.com/watch?v=qarvZMBiyNw">Eres Ese Algo</a></p>
+                <button type="button" onclick="alert('Hey Baby, You are amazing. You got this!')">Try Me If You Feeling Down</button>
+            </div>
+            <!-- our favorite songs -->
+            <div class="ourSongs">
+                <h1>Our Favorite Songs</h1>
+                <p><a href="https://www.youtube.com/watch?v=ADzzsO8oRSw">Mi Bendicion</a></p>
+                <p><a href="https://www.youtube.com/watch?v=s1XbPXdgEEA">Im gonna be</a></p>
+            </div>
+            <!-- his songs -->
+            <div class="hisSongs">
+                <h1>His Songs</h1>
+                <p><a href="https://www.youtube.com/watch?v=mcpH7OGpt70">Piel Canela</a></p>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
